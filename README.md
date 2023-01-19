@@ -1,32 +1,15 @@
 # Introduction
 
-Data science typically involves data, analysis, tests and outputs. A simple way to review, verify or present results is via Visualizations.
-
-Plotly Dash is selected to help prepare and present visualizations in a single dashboard. The key is to help present results in a organized manner to avoid 
+Evaluate pipe capacity per industry codes.
 
 # Summary
 
-A library is under development to standardize this. See [dashhtmlgrid](https://github.com/vamseeachanta/dashhtmlgrid)
-
-**#TODO**
-- A decidated plotly visualization library is required to help develop faster custom plotting
-    - The data provided to charts should be dedicated dfs with simple configuration files
-
+<img src="docs/visualization_architecture.svg" width=auto, height=auto/>
 
 # Usage
 
 - Prepare data
-- Define html div matrix using app layout (based on expected outputs). Some examples are:
-    - 
-- Utilize standard elements to plug into each matrix divs charts, tables 
-
-The library currently supports:
-- 1 dropdown menu box (with only 1 input field)
-- multiple tables
-- multiple plots
-
-<img src="docs/visualization_architecture.svg" width=auto, height=auto/>
-
+- Add the codes for analysis. Assess
 
 ## Example codes
 
