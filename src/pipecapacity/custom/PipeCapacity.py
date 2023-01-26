@@ -1,7 +1,7 @@
 import logging
 import math
 
-from common.update_deep import update_deep_dictionary
+from pipecapacity.common.update_deep import update_deep_dictionary
 
 
 class PipeCapacity():

@@ -4,7 +4,7 @@ import sys
 from pipecapacity.common.ymlInput import ymlInput
 from pipecapacity.common.update_deep import AttributeDict
 from pipecapacity.common.ApplicationManager import ConfigureApplicationInputs
-from pipecapacity.vertical_riser import vertical_riser
+from pipecapacity.pipe_capacity import pipe_capacity
 
 ymlfile = 'src/pipecapacity/tests/test_data/pipecapacity.yml'
 sys.argv.append(ymlfile)
@@ -16,4 +16,4 @@ basename = 'pipecapacity'
 application_manager = ConfigureApplicationInputs(basename)
 application_manager.configure(run_dict=None)
 
-cfg_base = vertical_riser(application_manager.cfg)
+cfg_base = pipe_capacity(application_manager.cfg)

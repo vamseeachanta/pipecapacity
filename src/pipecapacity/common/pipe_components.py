@@ -1,3 +1,8 @@
+from pipecapacity.custom.MaterialProperties import MaterialProperties
+from pipecapacity.custom.PipeCapacity import PipeCapacity
+from pipecapacity.custom.PipeSizing import PipeSizing
+from pipecapacity.custom.saveData import saveDataYaml
+
 class PipeComponents:
     def __init__(self, cfg):
         self.cfg = cfg
@@ -34,10 +39,6 @@ class PipeComponents:
 
 
     def evaluate_pipe_capacity(self):
-        from custom.MaterialProperties import MaterialProperties
-        from custom.PipeCapacity import PipeCapacity
-        from custom.PipeSizing import PipeSizing
-        from results.ASMEB31.saveData import saveDataYaml
 
         cfg = self.cfg
         pipe_flag = 'Outer_Pipe'

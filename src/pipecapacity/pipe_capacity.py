@@ -1,7 +1,7 @@
 from datetime import datetime
 from pipecapacity.common.pipe_components import PipeComponents
 
-def pipe(cfg):
+def pipe_capacity(cfg):
     t_start = datetime.now()
 
     pc = PipeComponents(cfg)
