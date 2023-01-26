@@ -26,14 +26,13 @@ start
 
     partition "Results" {
 
-        :Define Layout sections;
+        :Results;
             note right
+                Display detailed results
                 Compare results between methods
             end note
 
-
     }
-
 
 
 
