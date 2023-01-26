@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pipecapacity"
 version = "0.1.0"
-description = "Generic python package for a plotly dash grid"
+description = "Pipe Capacity usnig code calculations"
 readme = "README.md"
 authors = [{ name = "Vamsee Achanta", email = "vamsee.achanta@aceengineer.com" }]
 license = { file = "LICENSE" }
@@ -14,7 +14,7 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
-keywords=['package', 'library', 'module']
+keywords=['pipe capacity', 'pipe strength', 'code calculations', 'code evaluations', 'pipe utilization', 'capacity utilization', 'pressure calculations']
 dependencies = ["pyyaml", "plotly", "webcolors", "flask_wtf", "flask_httpauth", "flask_restful", "urllib3", 'tomli; python_version < "3.11"']
 requires-python = ">=3.7"
 
