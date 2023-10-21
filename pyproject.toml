@@ -23,7 +23,7 @@ requires-python = ">=3.7"
     dev   = ["black", "bumpver", "isort", "pytest"]
 
     [project.scripts]
-    pressure_pipe = "pipecapacity.pressure_pipe"
+    pressure_pipe = "pipecapacity:__main__"
 
     [project.urls]
     repository    = "https://github.com/vamseeachanta/pipecapacity"

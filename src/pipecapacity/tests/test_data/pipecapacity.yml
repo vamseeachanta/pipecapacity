@@ -1,3 +1,5 @@
+basename: pipecapacity
+
 default:
   Constants:
     g : {m/s2: 9.81, in/s2: 386.09, ft/s2: 32.174}

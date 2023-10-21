@@ -1,6 +1,6 @@
 """
 
-See https://github.com/vamseeachanta/py_package/ for more information.
+See https://github.com/vamseeachanta/pipecapacity/ for more information.
 """
 
 # Version of package

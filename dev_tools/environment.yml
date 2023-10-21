@@ -1,4 +1,4 @@
-name: dashhtmlgrid
+name: pipecapacity
 channels:
   - defaults
   - conda-forge
@@ -12,3 +12,5 @@ dependencies:
     - pyyaml
     - bumpver
     - webcolors
+    - deepdiff
+    - pytest

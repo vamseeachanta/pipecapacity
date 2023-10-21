@@ -1,4 +1,4 @@
-"""Generic python package for a plotly dash grid
+"""Python package for structural capacity of assets
 
 Usage:
 ------
@@ -10,12 +10,16 @@ Contact:
 
 More information is available at:
 
-- https://pypi.org/project/dashhtmlgrid/
-- https://github.com/vamseeachanta/dashhtmlgrid
+- https://pypi.org/project/pipecapacity/
+- https://github.com/vamseeachanta/pipecapacity
 
 
 Version:
 --------
 
-- dashhtmlgrid v0.1.0
+- pipecapacity v0.1.0
 """
+
+from pipecapacity.engine import engine
+
+engine()
