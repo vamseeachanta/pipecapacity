@@ -9,6 +9,7 @@ from assetutilities.common.ApplicationManager import ConfigureApplicationInputs
 from pipecapacity.pipe_capacity import pipe_capacity
 
 save_data = SaveData()
+library_name = 'pipecapacity'
 
 
 def engine(inputfile=None):
@@ -19,7 +20,7 @@ def engine(inputfile=None):
 
     basename = cfg['basename']
     application_manager = ConfigureApplicationInputs(basename)
-    application_manager.configure(cfg)
+    application_manager.configure(cfg, library_name)
     if cfg is None:
         raise ValueError("cfg is None")
 
