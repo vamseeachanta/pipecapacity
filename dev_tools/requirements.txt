@@ -1,0 +1,11 @@
+python
+pandas
+plotly
+dash
+pyyaml
+bumpver
+webcolors
+deepdiff
+pytest
+assetutilities
+python-certifi-win32

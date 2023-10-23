@@ -14,3 +14,5 @@ dependencies:
     - webcolors
     - deepdiff
     - pytest
+    - assetutilities
+    - python-certifi-win32
