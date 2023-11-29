@@ -10,7 +10,7 @@ dictitems:
     file_name_for_overwrite: app_pipecapacity_pipecapacity
     log_folder: c:\Users\ss7a2365\Documents\github\pipecapacity\src\pipecapacity\tests\test_data/pipecapacity\logs\
     result_folder: c:\Users\ss7a2365\Documents\github\pipecapacity\src\pipecapacity\tests\test_data/pipecapacity\results\
-    start_time: 2023-10-21 21:30:15.652256
+    start_time: 2023-11-29 14:09:11.182646
   Design:
   - AxialForce: 0
     BendingMoment: 0

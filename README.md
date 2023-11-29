@@ -1,6 +1,6 @@
 # Introduction
 
-Evaluate pipe capacity per industry codes.
+Evaluate structural capacity per industry codes.
 
 # Summary
 

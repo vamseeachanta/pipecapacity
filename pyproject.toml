@@ -3,9 +3,9 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pipecapacity"
+name = "structuralstrength"
 version = "0.1.0"
-description = "Pipe Capacity usnig code calculations"
+description = "Structural Capacity using code calculations"
 readme = "README.md"
 authors = [{ name = "Vamsee Achanta", email = "vamsee.achanta@aceengineer.com" }]
 license = { file = "LICENSE" }
@@ -23,11 +23,11 @@ requires-python = ">=3.7"
     dev   = ["black", "bumpver", "isort", "pytest"]
 
     [project.scripts]
-    pressure_pipe = "pipecapacity:__main__"
+    structural_strength = "structuralstrength:__main__"
 
     [project.urls]
-    repository    = "https://github.com/vamseeachanta/pipecapacity"
-    documentation = "https://github.com/vamseeachanta/pipecapacity/blob/main/README.md"
+    repository    = "https://github.com/vamseeachanta/structuralstrength"
+    documentation = "https://github.com/vamseeachanta/structuralstrength/blob/main/README.md"
 
 
 [tool.bumpver]
@@ -43,8 +43,8 @@ push            = false
         'current_version = "{version}"',
         'version = "{version}"',
     ]
-    "src/pipecapacity/__init__.py" = ["{version}"]
-    "src/pipecapacity/__main__.py" = ["- pipecapacity v{version}"]
+    "src/structuralstrength/__init__.py" = ["{version}"]
+    "src/structuralstrength/__main__.py" = ["- structuralstrength v{version}"]
 
 [tool.isort]
 profile                   = "black"
